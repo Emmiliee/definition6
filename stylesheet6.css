@@ -1,0 +1,79 @@
+body{
+    font-family: "HiraginoSans-W0","Hiragino Sans","ヒラギノ角ゴシック"; font-weight: 100;
+    background-image: url(5gradation.jpg);
+    background-size: cover;
+}
+.header{
+    font-size: 20px;
+    background-color: white;
+    height: 35px;
+}
+/*headerの背景は白に変える*/
+.button{
+    text-align: center;
+    margin-top: 400px;
+}
+a{
+    display       : inline-block;
+    border-radius : 25%;          /* 角丸       */
+    font-size     : 14pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : rgba(127, 127, 127, 0.95);     /* 文字色     */
+    line-height   : 17pt;         /* 1行の高さ  */
+    opacity       : 1;           /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 2px 2px 4px #666666;  /* 影の設定 */
+  }
+
+  .button:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 0.8;         /* カーソル時透明度 */
+  }
+  .button2{
+    text-align: center;
+    margin-top: 100px;
+}
+a{
+    display       : inline-block;
+    border-radius : 25%;          /* 角丸       */
+    font-size     : 14pt;        /* 文字サイズ */
+    text-align    : center;      /* 文字位置   */
+    cursor        : pointer;     /* カーソル   */
+    padding       : 12px 12px;   /* 余白       */
+    background    : #ffffff;     /* 背景色     */
+    color         : rgba(127, 127, 127, 0.95);     /* 文字色     */
+    line-height   : 17pt;         /* 1行の高さ  */
+    opacity       : 1;           /* 透明度     */
+    transition    : .3s;         /* なめらか変化 */
+    box-shadow    : 2px 2px 4px #666666;  /* 影の設定 */
+  }
+
+  .button2:hover {
+    box-shadow    : none;        /* カーソル時の影消去 */
+    opacity       : 0.8;         /* カーソル時透明度 */
+  }
+  li{
+      list-style: none;
+  }
+  .footer{
+    background-color: white;
+    height: 170px;
+    padding: 12px;
+    margin-top: 120px;
+}
+  li{
+      list-style: none;
+  }
+  .footer{
+    background-color: white;
+    height: 170px;
+    padding: 12px;
+    margin-top: 120px;
+}
+.pagenumber{
+    float: right;
+    font-size: 50px;
+}
