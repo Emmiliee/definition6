@@ -59,23 +59,15 @@ a{
       list-style: none;
   }
   .footer{
-    background-color: white;
-    height: 170px;
     padding: 12px;
     margin-top: 120px;
 }
   li{
       list-style: none;
   }
-  .footer{
-    background-color: white;
-    height: 170px;
-    padding: 12px;
-    margin-top: 120px;
-}
 .pagenumber{
     float: right;
-    font-size: 50px;
+    font-size: 30px;
 }
 @keyframes bgchange{
   0%   {background-image: url(5gradation.jpg);}/*変化させたい色*/
@@ -85,3 +77,18 @@ a{
   85%  {background-image: url(5-2gradation.jpg);}/*変化させたい色*/
   100% {background-image: url(5gradation.jpg);}/*変化させたい色*/
 }
+  .outline {
+    display        : inline-block;
+    color          : #595959;            /* 文字の色 */
+    font-size      : 18pt;               /* 文字のサイズ */
+    letter-spacing : 4px;                /* 文字間 */
+    text-shadow    : 
+         2px  2px 3px #ffffff,
+        -2px  2px 3px #ffffff,
+         2px -2px 3px #ffffff,
+        -2px -2px 3px #ffffff,
+         2px  0px 3px #ffffff,
+         0px  2px 3px #ffffff,
+        -2px  0px 3px #ffffff,
+         0px -2px 3px #ffffff;        /* 文字の影 */
+  }
